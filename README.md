@@ -22,6 +22,9 @@ be found at <https://hexdocs.pm/test_elixir>.
 ## How to Use
 
 ```shell
+mix deps.get
+mix compile
+
 iex -S mix
 
 TestElixir.hello()
