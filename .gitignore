@@ -1,0 +1,46 @@
+# Elixir build artifacts
+/_build
+/deps
+/*.ez
+
+# Erlang/Elixir crash dumps
+erl_crash.dump
+
+# Elixir language server
+/.elixir_ls
+
+# Editor/IDE
+.idea/
+*.swp
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Compiled local test artifacts
+cover/
+test_output/
+
+# Logs
+log/
+logs/
+*.log
+
+# Configuration overrides
+config/*.secret.exs
+
+# Mix lockfile if not needed in prod builds
+# Uncomment the next line if mix.lock should NOT be versioned
+# mix.lock
+
+# Docker-related
+*.tar
+*.img
+docker-compose.override.yml
+
+# Custom binaries or scripts
+/bin/*
+
+# Ignore test artifacts
+tmp/
